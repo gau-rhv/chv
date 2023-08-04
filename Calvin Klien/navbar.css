@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #f2f2f2;
+}
+
+.navbar-logo {
+  padding: 0;
+  font-family: 'quicksand';
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.navbar-link {
+  margin: 0 1em;
+}
+
+.navbar-link a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-link a:after{
+  content: "";
+  position: absolute;
+  background: black;
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -4px;  
+  transition: 0.3s;
+}
+
+.navbar-link a:hover{
+  color: #171a16;
+}
+.navbar-link a:hover::after{
+  width: 100%;
+}
+
+
+.navbar-links li .dropmenu{
+  list-style: none;
+  width: 200px;
+  height: auto;
+  background:#f2f2f2;
+  padding: 35px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navbar-links li:hover .dropmenu{
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+.navbar-links li .dropmenu a{
+    padding: 10px;
+    width: 200px;
+    display: list-item;
+    position: relative;
+}
