@@ -1,0 +1,26 @@
+body{ /*means these properties are applicable to entire body of the website*/
+  margin: 0; /* The "margin" in CSS is like the space you want around something, like a picture, so it's not too close to other things. its set to 0  that means no margin*/
+  padding: 0; /* Padding in CSS is like giving something a soft cushion around the edges to keep it comfy inside, but it doesn't change its size or shape. its set to 0 that means no padding */
+  font-family: 'Segoe UI', sans-serif; /*Font family is the prorty which allows you to specify which font you wanna use in this we are using seoge ui as main and san serif as backup [both are default web fonts] */
+}
+
+.navbar-logo{  /*navbar-logo is a class name which is kept for calvin klein logo in the navbar. narbar means navigation bar the top most bar [the one with the cateogaries home, feedback collection about us]*/
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+  margin: 20px;/* for content there is a 20 pixel(20px) margin space*/
+}
+
+.heading { 
+  text-align: center; /*"Text-align: center;" in CSS means you want to put the text right in the middle of the page, like when you draw something in the center of a piece of paper.*/
+  margin-bottom: 20px;/* for desription there is a 20 pixel(20px) margin space in the bottom of the heading*/
+}
+
+.description {
+  text-align: justify; /*"Text-align: justify;" in CSS means you want the text to be spread out evenly across the whole width of the page, like when you want the words to be neatly lined up on both sides of the paper.*/
+  margin-bottom: 20px;
+  padding: 0 15em; /*"padding: 0 15em;" in CSS means you're adding empty space of 15 times the size of the letter "m" on the left and right sides of an element, but no empty space on the top and bottom. It's like giving something extra space on the left and right, but not above or below.*/
+}
+
+

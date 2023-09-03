@@ -1,0 +1,126 @@
+/* Resetting margin, padding, and setting the font for the entire page */
+body {
+  margin: 0; /* No margin around the body */
+  padding: 0; /* No padding around the body */
+  font-family: 'Segoe UI', sans-serif; /* Font for text */
+}
+
+/* Center-aligning text within elements with class 'heading' */
+.heading {
+  text-align: center; /* Text alignment to the center */
+}
+
+/* Applying font styles for elements with class 'navbar' */
+.navbar {
+  font-family: 'Segoe UI', sans-serif; /* Font for text */
+}
+
+/* Setting the height for elements with class 'p1' */
+.p1 {/*p1 is the class name given to the clothing */
+  height: 36vh; /* 36% of the vh-viewport height[measurement] */
+}
+
+/* Styling for a group of buttons. This css properties is used for all 4 buttons. */
+.bubble-buttons { /*bubble buttons is class name which shows the buttons for All men women kids*/
+  display: flex; /*The CSS property display: flex; is used to create a flex container. A flex container is a parent element that can hold one or more child elements (usually called flex items). When you set display: flex; on an element, it turns the element and its child elements into a flexible box, allowing you to control the layout and alignment of the child elements inside it easily. This is often used for creating responsive and dynamic layouts in web design.*/
+  justify-content: center; /*"justify-content: center;" in CSS means putting things in the middle, like when you arrange your toys to be in the center of a shelf.*/
+  margin-top: 20px; /* Space on top of margin of 20pixels*/
+}
+
+/* Styling for individual buttons within 'bubble-buttons' */
+.bubble-button {
+  display: inline-block; /*"display: inline-block;" in CSS makes something act like a word, so it stays on the same line with other words, but you can also give it a little box shape and space around it.*/
+  margin: 0 10px; /* Margin around buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  border: 2px solid #000; /* Border with a black color */
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+/* Styling for a grid of cards */
+.card-grid {
+  display: grid; /* Grid layout ["display: grid;" in CSS is like arranging things on a grid or a checkerboard, so they fit neatly in rows and columns, like pieces on a game board.]*/
+  grid-template-columns: repeat(5, 1fr); /* 5 columns of equal width */
+  gap: 20px; /* Gap between grid items */
+  margin: 20px; /* Margin around the grid */
+}
+
+/* Styling for individual cards */
+.card {
+  background-color: #f2f2f2; /* Background color for cards */
+  padding: 20px; /* Padding inside cards */
+  text-align: center; /* Center-align text within cards */
+}
+
+/* Additional styling for cards with class 'card' */
+.card {
+  display: none; /* Initially hidden ["display: none;" in CSS means making something invisible, like it's not even there on the webpage.] */
+  position: relative; /* Positioning ["position: relative;" in CSS means you can move an element around from where it would normally be, like shifting a puzzle piece a little from its original spot.]*/
+  padding: 20px; /* Padding inside cards */
+  border: 1px solid #ccc; /* Border with a gray color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for the image within cards */
+.card-image {
+  margin-bottom: 10px; /* Space below the image */
+}
+
+/* Styling for sale bubble labels */
+.sale-bubble {
+  position: absolute; /* Absolute positioning = "position: absolute;" in CSS means an element is placed exactly where you want it on the webpage, like putting a sticker anywhere on a page, and it won't affect other elements' positions. */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  background-color: black; /* Background color */
+  color: white; /* Text color */
+  padding: 1em; /* Padding inside the bubble - "padding: 1em;" in CSS means giving something a little space around it, about the size of the letter 'm', like putting a small cushion around an object.*/
+  border-radius: 50%; /* Circular shape */
+  font-size: 12px; /* Font size */
+}
+
+/* Styling for item names */
+.item-name {
+  font-weight: bold; /* Bold text */
+  margin-bottom: 5px; /* Space below item names */
+}
+
+/* Styling for item prices */
+.item-price {
+  color: green; /* Green color for item prices */
+}
+
+/* Styling for pagination buttons */
+.pagination-buttons {
+  display: flex; /* Elements are displayed in a row */
+  justify-content: center; /* Center-aligning content horizontally */
+  margin-top: 5px; /* Space on top */
+  padding-bottom: 5px; /* Space at the bottom */
+}
+
+/* Styling for individual pagination buttons */
+.pagination-buttons button {
+  margin: 0 10px; /* Margin around buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  border: 2px solid #000; /* Border with a black color */
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: 0.5s; /* Smooth transition on hover */
+}
+
+/* Styling for pagination buttons on hover */
+.pagination-buttons button:hover {
+  background-color: black; /* Background color on hover */
+  color: white; /* Text color on hover */
+  transition: 0.5s; /* Smooth transition on hover */
+}
+
+/* Styling for disabled pagination buttons */
+.pagination-buttons button:disabled {
+  background-color: black; /* Background color for disabled buttons */
+  cursor: not-allowed; /* Disabled cursor style */
+}
+
+/* Styling for the focus state of pagination buttons */
+.pagination-buttons button:focus {
+  outline: none; /* Remove focus outline */
+}

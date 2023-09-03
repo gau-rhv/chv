@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#home-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 40%;
+  top: 40%;
+  width: 100%;
+}
+
+.title{
+  color: #f8f8f8;
+  font-size: 80px;
+  text-shadow: 8px 10px 10px black; 
+}
+
+.title-span{
+  color: #adacac;
+}
