@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-logo{
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+  margin: 20px;
+  
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 0 15em;
+  font-size: 20px;
+   
+}
+
+
